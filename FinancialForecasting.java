@@ -15,7 +15,7 @@ public class FinancialForecasting {
     }
 
     public static void main(String[] args) {
-        System.out.println("\n=== Exercise 7: Financial Forecasting ===");
+        System.out.println("\n=== Financial Forecasting ===");
 
         double currentValue = 10000;
         double growthRate = 0.05;
