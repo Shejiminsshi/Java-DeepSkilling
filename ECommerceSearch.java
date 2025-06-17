@@ -35,7 +35,6 @@ public class ECommerce {
 
     public void addProduct(Product product) {
         products.add(product);
-        // Maintain sorted array for binary search (by productId)
         sortedProducts.add(product);
         Collections.sort(sortedProducts, Comparator.comparingInt(Product::getProductId));
     }
